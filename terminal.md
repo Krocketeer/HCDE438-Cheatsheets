@@ -8,4 +8,4 @@
 
 `mkdir`: Make a directory
 
-`touch fileName`: Maketouh a file called "fileName"
+`touch fileName`: Make a file called "fileName"

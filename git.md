@@ -6,8 +6,8 @@
 
 ### Save your code:
 
-`git add .`
+`git add .`: add files to staging area
 
 `git commit -m "message goes here"`: commit to local repository
 
-`git push origin master`
+`git push origin master`: push code to Git
