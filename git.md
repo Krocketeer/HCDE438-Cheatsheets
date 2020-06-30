@@ -4,6 +4,8 @@
 
 `git init`: initalize Git repository
 
+`git remote add origin [link]`: syncs repository
+
 ### Save your code:
 
 `git add .`: add files to staging area
