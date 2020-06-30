@@ -4,7 +4,7 @@
 
 `git init`: initalize Git repository
 
-`git remote add origin [link]`: syncs repository
+`git remote add origin [link]`: syncs the local repository with online repository
 
 ### Save your code:
 
