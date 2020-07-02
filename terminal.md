@@ -9,3 +9,10 @@
 `mkdir`: Make a directory
 
 `touch fileName`: Make a file called "fileName"
+
+### npm:
+
+`npm install -g [package-name]`: install the "package-name" package (-g means global). May need to use `sudo` to override
+restrictions
+
+
