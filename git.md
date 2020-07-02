@@ -14,7 +14,7 @@
 
 `git push origin master`: push code to Git
 
-### note
+### Notes:
 
 The `.gitignore` file lets you add specific files and folders that you don't
-want saved on Github. 
+want saved on Github 
