@@ -12,7 +12,14 @@
 
 ### npm:
 
-`npm install -g [package-name]`: install the "package-name" package (-g means global). May need to use `sudo` to override
-restrictions
+`npm install -g [package-name]`: install the "package-name" package (-g means global). May need to use `sudo` to 
+override restrictions
 
+`npm start`: start project
+
+`cmd + c`: stop project (Mac)
+
+`ctrl + c`: stop project (Windows)
+
+`npm run build`: build app
 
