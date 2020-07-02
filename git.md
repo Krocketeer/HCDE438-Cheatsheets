@@ -13,3 +13,8 @@
 `git commit -m "message goes here"`: commit to local repository
 
 `git push origin master`: push code to Git
+
+### note
+
+The `.gitignore` file lets you add specific files and folders that you don't
+want saved on Github. 

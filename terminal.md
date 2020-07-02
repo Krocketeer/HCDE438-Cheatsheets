@@ -17,9 +17,7 @@ override restrictions
 
 `npm start`: start project
 
-`cmd + c`: stop project (Mac)
-
-`ctrl + c`: stop project (Windows)
+`ctrl + c`: stop project
 
 `npm run build`: build app
 
