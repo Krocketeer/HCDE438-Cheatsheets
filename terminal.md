@@ -19,5 +19,12 @@ override restrictions
 
 `ctrl + c`: stop project
 
-`npm run build`: build app
+`npm run build`: build app (any changes made must use this to update)
 
+### Firebase Deploy:
+
+`firebase login` to login
+
+`firebase init`  to initialize (set your "public" directory to "build" in the questions)
+
+`firebase deploy` to deploy your app!
