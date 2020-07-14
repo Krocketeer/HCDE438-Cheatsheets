@@ -23,7 +23,7 @@ function App() {
     return <div>
         {people.map((item, index) => {
             // "key" is something that React needs
-            <Person key={index} name={item} />
+            return <Person key={index} name={item} />
         })}
     </div>
 }
