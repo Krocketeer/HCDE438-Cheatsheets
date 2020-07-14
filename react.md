@@ -12,8 +12,7 @@ function Person(props) {
 
 ### Use a Component
 ```jsx
-//Here, you render the Person component
-//and pass in the name "alice" in a prop
+//Here, you render the Person component and pass in the name "alice" in a prop
 <Person name="alice" age={30} />
 ```
 
@@ -32,8 +31,7 @@ function App() {
 
 ### useState
 ```jsx
-// "state" lets you handle changes on your site
-// in an intelligent way
+// "state" lets you handle changes on your site in an intelligent way
 function Counter() {
     const [count, setCount] = useState(0)
     return <button onClick={() => setCount(count + 1)}>
@@ -52,8 +50,7 @@ function App() {
         {1 + 1 === 3 && <WontRender />}
     </div>
 }
-// You can also use "ternary expression" to
-// conditionally render expressions
+// You can also use "ternary expression" to conditionally render expressions
 function App() {
     return <div>
         {1 + 1 === 2 ? <WillRender /> : <WontRender />}
