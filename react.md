@@ -42,14 +42,14 @@ function Counter() {
 
 ### Conditionally Rendering Components
 ```jsx
-// You can use && to render a component
-// based on some JavaScript condition
+// You can use && to render a component based on some JavaScript condition
 function App() {
     return <div>
         {1 + 1 === 2 && <WillRender />}
         {1 + 1 === 3 && <WontRender />}
     </div>
 }
+
 // You can also use "ternary expression" to conditionally render expressions
 function App() {
     return <div>
