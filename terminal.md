@@ -29,3 +29,6 @@ override restrictions
 Also make sure to NOT overwrite your index.html
 
 `firebase deploy` to deploy your app!
+
+`create-react-app` always puts built app in the `build` folder, so when setting up Firebase, remember to type "build" in 
+the question about "where is your public directory located?
