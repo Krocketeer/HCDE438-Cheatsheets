@@ -61,7 +61,9 @@ img {
     color: blue; /*for text color*/
     background: red; /*background color*/
     width: 10px;
+    max-width: 100vw; /*can't be bigger than 100% of width*/
     height: 10px;
+    max-height: 100vh; /*can't be bigger than 100% of height*/
     margin: 20px; /*outside the element*/
     padding: 20px; /*inside the element*/
     font-size: 10px;
@@ -88,6 +90,7 @@ closest parents that has "relative" positioning. You can use `top`, `bottom`, `l
     flex-direction: column; /*or row*/ 
     align-items: center; /*or flex-start, flex-end, space-between, space-around*/
     justify-content: center; 
+    flex-wrap: wrap; /*allows children to wrap*/
     flex-flow: column wrap; 
 }
 
@@ -98,3 +101,25 @@ closest parents that has "relative" positioning. You can use `top`, `bottom`, `l
 - `align-items`: aligns opposite the direction axis
 - `justify-content`: aligns items along direction axis
 - `flex-flow`: combines `flex-direction` and `flex-wrap` into one
+
+### Responsive CSS
+
+```css
+html { /* MOBILE */
+    font-size: 15px;
+}
+
+@media (min-width: 400px) {
+  html { /* TABLET */
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  html { /* DESKTOP */
+    font-size: 21px;
+  }
+}
+```
+
+- you can use `rem` units to scale other elements on your page in relation to the `font-size` on your `<html>` element
