@@ -14,6 +14,11 @@
 
 `git push origin master`: push code to Git
 
+### Copy a Repository
+
+`git clone {url.git}`: copy an entire repository to your local computer. Then you can `cd` into it,
+and run `npm install` to install all the dependencies.
+
 ### Notes:
 
 The `.gitignore` file lets you add specific files and folders that you don't

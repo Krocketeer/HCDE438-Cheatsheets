@@ -123,3 +123,32 @@ html { /* MOBILE */
 ```
 
 - you can use `rem` units to scale other elements on your page in relation to the `font-size` on your `<html>` element
+
+### Animations
+```css
+.my-button {
+    transition: all 0.2s; /*a "transition on your animation*/
+}
+
+.my-button:hover {
+    transform: scale(1.2, 1.2) translate(100px, 50px);
+}
+```
+
+Using "transform" or "opacity" for animations makes your application WAY more performant
+and will not slow down the page, even with thousands of animations running
+
+**Long Running Animations**
+```css
+.logo{
+  animation: spinny infinite 20s linear;
+}
+@keyframes spinny {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+```
