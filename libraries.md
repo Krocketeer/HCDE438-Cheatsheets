@@ -27,3 +27,24 @@
 
 ### Styles
 - styled-components
+
+### Other Web App Frameworks
+- Vue.js (independently managed) 
+- Angular.js (by Google, very good for large teams. It's more "opinionated" and strict than React)
+- Ember.js (a bit older)
+- Polymer. js (by Google, uses HTML5 Web Components rather than "virtual components")
+
+# Other Things To Possibly Learn
+- ReactNative: build iOS and Android apps
+    - Cross-platform! One codebase for iOS, Android, Windows, etc.
+    - No HTML ex: instead of < div > use < View >
+    - No classes, all CSS is in style 
+    
+- Why build native apps?
+    - Push notifications
+    - Background tasks
+    - pen
+    
+- Electron.js (let's you embed web applications inside desktop applications)
+    - Makes it easier to build desktop apps
+    - Desktop apps are more secure

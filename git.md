@@ -19,6 +19,31 @@
 `git clone {url.git}`: copy an entire repository to your local computer. Then you can `cd` into it,
 and run `npm install` to install all the dependencies.
 
+### General Branch Commands
+
+`git branch`: see current branch
+
+`git checkout -b {BRANCH_NAME}`: creates a local branch (-b creates a new branch). The branch can then be pushed 
+to Github with `git add . `, `git commit -m "message"`, and  `git push origin {BRANCH_NAME}`
+
+`git checkout {branch_name}`: switch branches 
+
+`git status`: see the status of your file
+
+### Merging
+
+If the master branch has been changed by somebody else, you need to pull before you can push.
+
+Commit to a repository that has many contributors:
+
+- You are in your own branch
+- `git pull origin master`: will pull any updates since last time you pulled
+- `git merge master`: will merge any changes from the master branch into your local branch, *so you can resolve conflicts if there are any.*
+- If there are conflicts, you need to *add* and *commit* again.
+- `git push origin my-new-feature`
+- Finally, the new branch is created on github.com
+
+
 ### Notes:
 
 The `.gitignore` file lets you add specific files and folders that you don't
