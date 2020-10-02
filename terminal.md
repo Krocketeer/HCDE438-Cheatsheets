@@ -15,7 +15,7 @@
 `npm install -g [package-name]`: install the "package-name" package (-g means global). May need to use `sudo` to 
 override restrictions
 
-`npm install --save [package-name`: install the "package-name" package to project folder
+`npm install --save [package-name]`: install the "package-name" package to project folder
 
 `npm start`: start project
 
