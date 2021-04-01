@@ -44,6 +44,18 @@ Commit to a repository that has many contributors:
 - Finally, the new branch is created on github.com
 
 
+### Others
+
+Things I have constantly had to Google so might as well include them here:
+
+- `git reset HEAD --hard`: undo any local changes made to tracked files (reverting back to last commit)
+- `rm -rf [folder name]`: recursively delete folder and its contents
+- `rm [file name]`: delete file
+- `git rm --cached [file name]`: remove file from git repo while leaving it in local system; 
+follow by doing a commit and push
+- `git remote set-url origin git:[remote url link]`: changing the git origin branch when cloning a repo
+ 
+
 ### Notes:
 
 The `.gitignore` file lets you add specific files and folders that you don't
