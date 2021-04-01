@@ -53,7 +53,7 @@ Things I have constantly had to Google so might as well include them here:
 - `rm [file name]`: delete file
 - `git rm --cached [file name]`: remove file from git repo while leaving it in local system; 
 follow by doing a commit and push
-- `git remote set-url origin git:[remote url link]`: changing the git origin branch when cloning a repo
+- `git remote set-url origin [remote url link]`: changing the git origin branch when cloning a repo
  
 
 ### Notes:
