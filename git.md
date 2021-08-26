@@ -54,7 +54,14 @@ Things I have constantly had to Google so might as well include them here:
 - `git rm --cached [file name]`: remove file from git repo while leaving it in local system; 
 follow by doing a commit and push
 - `git remote set-url origin [remote url link]`: changing the git origin branch when cloning a repo
- 
+- `git remote -v`: Displays which repo your files are linked to when pushing or committing
+- Rename master to main branch on local:
+  
+        git branch -m master main
+        git fetch origin
+        git branch -u origin/main main
+        git remote set-head origin -a
+
 
 ### Notes:
 
