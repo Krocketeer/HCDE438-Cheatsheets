@@ -1,4 +1,4 @@
-###Deploy React App
+### Deploy React App
 
 1. `npm run build`: build app (any changes made must use this to update)
 
@@ -21,7 +21,7 @@
 
 9. `firebase deploy` to deploy your app!
 
-###Pushing Changes to Firebase App
+### Pushing Changes to Firebase App
 
 1. `npm run build`: build app (any changes made must use this to update)
 
